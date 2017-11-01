@@ -1,0 +1,15 @@
+package basic;
+
+public class NumberCalc {
+	public static void main(String[] args) {
+		System.out.println("Program is starting");
+		PrintName();
+		
+	}
+	
+	static void PrintName() {
+		System.out.println("My Name is Chris");
+	}
+	
+
+}

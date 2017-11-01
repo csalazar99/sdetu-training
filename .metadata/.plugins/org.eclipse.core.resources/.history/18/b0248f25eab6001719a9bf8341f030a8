@@ -1,0 +1,45 @@
+package oop_try;
+
+public class bankacc {
+	
+	String AccountNumber;
+	String RoutingNumber;
+	String Name;
+	String SSN;
+	String AccountType;
+	
+	//constructor defenition: unique methods
+	// 1.) They are used to define / setup / initialize propersties of an object
+	// 2.) Constructors are IMPLICITLY called upon Instantation
+	// 3.) The same name as the class itself
+	// 4.) Constructors have no return value
+	bankacc(){
+		System.out.println(" new account created");
+	}
+	
+	// Overloading: call same method name with different arguments
+	bankacc(String AccountType){
+		System.out.println("New account created :" + AccountType);
+	}
+	bankacc(String AccountType, double InitDeposit){
+		System.out.println("New account created :" + AccountType);
+		System.out.println("Initial Deposit of : $" + InitDeposit);
+	}
+	
+	void deposit() {
+		
+	}
+	
+	void withdraw() {
+		
+	}
+	
+	void CheckBalance() {
+		
+	}
+	
+	void GetStatus() {
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package basic;
+
+public class strings {
+	public static void main(String[] args) {
+		String BookTitle;
+		String StringSearch = "Ring";
+		BookTitle = "Lord of the Rings";
+		
+		if (BookTitle.contains(StringSearch)) {
+			System.out.println("The book title contains " + StringSearch);
+		}
+		
+		String browser = "Chrome";
+		if (browser.equalsIgnoreCase("chrome")) {
+			System.out.println("The browser is " + browser);
+		}
+	}
+}
